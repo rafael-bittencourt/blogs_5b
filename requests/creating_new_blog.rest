@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhZmFlbCIsImlkIjoiNjRmNWRlNDVlYWRkYzM1ZGE2MzIyZTRkIiwiaWF0IjoxNjkzOTM3MzMxLCJleHAiOjE2OTM5NDA5MzF9.YfMz8hvPRpglmd9M4Q5ZkH4g2W0CEDbQO3Was7OUfh0
+
+{
+    "title": "Teste com token4",
+    "author": "Rafael",
+    "url": "https://www.google.com/images",
+    "likes": 232223
+}
